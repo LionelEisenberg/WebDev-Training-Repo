@@ -1,0 +1,18 @@
+h4 {
+  color: rgb(0, 255, 255);
+  background: rgb(255, 100, 80);
+}
+
+h1 {
+  /*border-color: purple;
+  border-width: 5px;
+  border-style: solid;*/
+  border: 8px rgb(255, 100, 80) dashed;
+}
+
+body {
+  background: pink;
+  /*background: url(http://cdn2.hubspot.net/hub/118271/file-493878969-jpg/Gusto-Graphics/Gusto_Dining_Table/20131221_171133.jpg?t=1430757696676);
+  background-repeat: no-repeat;
+  background-size: cover;*/
+}

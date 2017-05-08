@@ -1,0 +1,28 @@
+body {
+  font-size: 26px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.2em;
+  font-weight: bold;
+}
+
+table {
+  margin: auto;
+}
+
+td {
+  width: 100px;
+  height: 100px;
+}
+
+.middleCol {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+
+.middleRow td {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
