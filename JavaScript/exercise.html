@@ -3,10 +3,18 @@
   <head>
     <meta charset="utf-8">
     <title>test!</title>
-    <script type="text/javascript" src="test.js">
+    <script type="text/javascript">
+    window.onload = function() {
+      var button = document.querySelector("button");
+
+      button.addEventListener("click", function() {
+        document.querySelector("body").classList.toggle("backgroundcollor")
+      })
+    }
     </script>
+    <link rel="stylesheet" href="css.css">
   </head>
   <body>
-
+<button type="button" name="button">CLICK ME</button>
   </body>
 </html>
